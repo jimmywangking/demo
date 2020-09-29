@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 123456789
+    url: jdbc:postgresql://9.112.160.82:54320/homework
+  jpa:
+    show-sql: true
+#    hibernate:
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
